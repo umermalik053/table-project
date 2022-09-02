@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table project</title>
+</head>
+<body>
+    <h1>table project</h1>
+    <form onsubmit="dotable(); return false">
+        <h4>WHICH TABLE DO YOU WANT TO WRITE?</h4>
+    <input type="number" id="table" placeholder="Enter Your Table Number">
+    <br><br>
+    LINE QUANTITY
+    <input type="number" id="time" placeholder="How Much Table To Write,Enter" value="10" >
+    <button type="submit">click now</button>
+    </form>
+    <h2>TAble</h2>
+    <h2 id="result"></h2>
+    <script>
+        function dotable(){
+
+            
+            let firstnumber = +document.querySelector('#table').value;
+            let secondnumber = +document.querySelector('#time').value;
+            //  let thirdnumber = +document.querySelector('#result')
+            
+            document.querySelector('#result').innerHTML
+            
+            for (let i = 1 ; i <= secondnumber ; i++) {
+                x=(` ${firstnumber} X ${i} = ${firstnumber*i}`) ;
+                document.querySelector('#result').innerHTML=x
+
+        }
+        
+            
+
+
+
+
+            
+        }
+            </script>
+            </body>
+</html>
