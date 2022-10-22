@@ -1,5 +1,7 @@
 body{
-    background-image: url(https://thirdspacelearning.com/wp-content/uploads/2020/05/how-help-learn-times-tables-at-home-parent-guide.jpg);
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-image: url(https://thirdspacelearning.com/wp-content/uploads/2020/05/how-help-learn-times-tables-at-home-parent-guide.jpg);
     padding: 10%;
     /* margin-top: 5%; */
     
@@ -37,7 +39,7 @@ body{
 
  }
  #result{
-         background-color: rgb(75, 54, 54);
+         background-color: rgb(236, 213, 213);
          border-radius: 10%;
          margin: 40%;
          margin-top: 2%;

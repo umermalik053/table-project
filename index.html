@@ -34,10 +34,15 @@
             let secondnumber = +document.querySelector('#time').value;
             //  let thirdnumber = +document.querySelector('#result')
             
-            document.querySelector('#result').innerHTML
+            document.querySelector('#result').innerHTML =""
             
             for (let i = 1 ; i <= secondnumber ; i++) {
+                // document.querySelector('#result').innerHTML+=""
+
+
                 x=(` <br> ${firstnumber} X ${i} = ${firstnumber*i} <br>`) ;
+                
+                // document.querySelector('#result').innerHTML+=""
                 document.querySelector('#result').innerHTML+=x
 
         }
